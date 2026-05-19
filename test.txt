@@ -1,0 +1,14 @@
+#Test avec une station doublon, une station fantôme, deux stations partageant le même id et deux mêmes edges n'ayant pas le même temps 
+
+STATION;0;A
+STATION;1;B
+STATION;2;C
+STATION;;??
+STATION;2;C
+STATION;3;D
+STATION;3;E
+EDGE;0;1;5
+EDGE;1;2;3
+EDGE;0;2;10
+EDGE;2;3;1
+EDGE;2;3;4
